@@ -1,0 +1,39 @@
+# Hele-Shaw 2D ODIL Simulation
+
+A 2D Hele-Shaw flow simulation with optimal control using differentiable physics.
+
+## Setup
+
+1. **Create a virtual environment:**
+   ```bash
+   python3 -m venv venv
+   ```
+
+2. **Activate the virtual environment:**
+   ```bash
+   source venv/bin/activate
+   ```
+
+3. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## Running the Simulation
+
+Activate the virtual environment (if not already active) and run:
+```bash
+source venv/bin/activate
+python hele_shaw_sim.py
+```
+
+The simulation will:
+- Train a policy to control particle trajectories
+- Generate visualization plots saved as PNG files
+- Display training progress and results
+
+## Dependencies
+
+- Python >= 3.8
+- numpy >= 2.3.0
+- matplotlib >= 3.10.0
